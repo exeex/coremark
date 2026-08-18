@@ -135,7 +135,7 @@ main(int argc, char *argv[])
     results[0].seed2      = get_seed(2);
     results[0].seed3      = get_seed(3);
     results[0].iterations = get_seed_32(4);
-#if STAREDGE_COREMARK_FIXED_RUN
+#if EDGE_COREMARK_FIXED_RUN
     results[0].seed1      = 0;
     results[0].seed2      = 0;
     results[0].seed3      = 0x66;
@@ -380,7 +380,7 @@ for (i = 0; i < MULTITHREAD; i++)
     {
         ee_printf(
             "ERROR! Must execute for at least 10 secs for a valid result!\n");
-#if !STAREDGE_COREMARK_FIXED_RUN
+#if !EDGE_COREMARK_FIXED_RUN
         total_errors++;
 #endif
     }

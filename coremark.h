@@ -16,8 +16,8 @@ limitations under the License.
 Original Author: Shay Gal-on
 */
 
-#ifndef STAREDGE_COREMARK_H
-#define STAREDGE_COREMARK_H
+#ifndef EDGE_COREMARK_H
+#define EDGE_COREMARK_H
 
 /* Topic: Description
         This file contains  declarations of the various benchmark functions.

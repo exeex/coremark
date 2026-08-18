@@ -45,7 +45,7 @@ volatile ee_s32 seed5_volatile = 0;
 CORETIMETYPE
 barebones_clock(void)
 {
-    return (CORETIMETYPE)staredge_bench_get_cycle();
+    return (CORETIMETYPE)edge_bench_get_cycle();
 }
 /* Define : TIMER_RES_DIVIDER
         Divider to trade off timer resolution and total time that can be
